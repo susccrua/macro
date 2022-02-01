@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #f6f4ec;
 }
 
 .grayscale {
@@ -9,24 +9,24 @@ body {
 }
 /* page content */
 header {
-  text-align: center;
-  position: relative;
-  padding: 20px;
+  text-align: left;
+  position: inline-block;
 }
+
 h1,
 h2 {
   font-family: "Source Serif Pro", serif;
 
-  color: white;
+  color: rgb(26, 26, 26);
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-top: 20px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .figma {
@@ -36,5 +36,7 @@ h2 {
   transform: translate(-50%, -50%);
   padding: 10px;
   text-align: center;
-  background-color: black;
+  background-color: #f6f4ec;
+  outline: #f6f4ec;
+  border-color: #f6f4ec;
 }
